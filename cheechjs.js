@@ -14,6 +14,7 @@ function printList(list){
     }
 }
 
+
 document.getElementById('submit').addEventListener("click", function() {
-    alert("Scrrerech");
+    alert(pizzaAmount, pizzaType);
 });
