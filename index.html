@@ -10,26 +10,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    
+
 
     <title>Cheech's Pizza</title>
 </head>
-
 <body>
-    
+
     <h1>Welcome to Cheech's Pizza</h1>
     <div class="container">
-        <form>
-            <form>
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
+        <form action="" method="post">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
                 </div>
-            </form>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Phone Number</label>
                 <input type="tel" class="form-control" id="exampleFormControlInput1" name="usrtel">
@@ -65,14 +62,6 @@
                     <option value = "cbr">Chicken Bacon Ranch Pizza</option>
                 </select>
             </div>
-            <script>
-                function getSelectType(){
-                    var pizzaType = document.getElementById("exampleFormControlSelect2").value;
-                    //alert(pizzaType);
-                }
-            </script>
-        </form>
-        <form>
             <input type="submit" value="Submit" id="submit">
         </form>
     </div>
