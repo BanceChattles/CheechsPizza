@@ -13,3 +13,7 @@ function printList(list){
         console.log(pizza.pizzas[i]);
     }
 }
+
+document.getElementById('submit').addEventListener("click", function() {
+    alert("Scrrerech");
+});
