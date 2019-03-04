@@ -25,5 +25,5 @@ function getSelectType(){
 }
 
 document.getElementById('submit').addEventListener("click", function() {
-    alert(document.write(pizzaType, pizzaAmount));
+    alert("Click Ok to See Summary",document.write(pizzaType + " " + pizzaAmount));
 });
