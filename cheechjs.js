@@ -14,7 +14,16 @@ function printList(list){
     }
 }
 
+function getSelectAmount(){
+    pizzaAmount = document.getElementById("exampleFormControlSelect1").value;
+    //alert(pizzaAmount);
+}
+
+function getSelectType(){
+    pizzaType = document.getElementById("exampleFormControlSelect2").value;
+    //alert(Type);
+}
 
 document.getElementById('submit').addEventListener("click", function() {
-    alert(pizzaAmount, pizzaType);
+    alert(document.write(pizzaType, pizzaAmount));
 });
